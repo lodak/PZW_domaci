@@ -1,0 +1,9 @@
+D:\podatci\Moje stvari\FAKS\FESB\6 SEMESTAR\6 SEMESTAR\PROGRAMIRANJE ZA WINDOWS\dz\dz2\dz2Tests\bin\Debug\dz2Tests.dll
+D:\podatci\Moje stvari\FAKS\FESB\6 SEMESTAR\6 SEMESTAR\PROGRAMIRANJE ZA WINDOWS\dz\dz2\dz2Tests\bin\Debug\dz2Tests.pdb
+D:\podatci\Moje stvari\FAKS\FESB\6 SEMESTAR\6 SEMESTAR\PROGRAMIRANJE ZA WINDOWS\dz\dz2\dz2Tests\bin\Debug\dz2.exe
+D:\podatci\Moje stvari\FAKS\FESB\6 SEMESTAR\6 SEMESTAR\PROGRAMIRANJE ZA WINDOWS\dz\dz2\dz2Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\podatci\Moje stvari\FAKS\FESB\6 SEMESTAR\6 SEMESTAR\PROGRAMIRANJE ZA WINDOWS\dz\dz2\dz2Tests\bin\Debug\dz2.pdb
+D:\podatci\Moje stvari\FAKS\FESB\6 SEMESTAR\6 SEMESTAR\PROGRAMIRANJE ZA WINDOWS\dz\dz2\dz2Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\podatci\Moje stvari\FAKS\FESB\6 SEMESTAR\6 SEMESTAR\PROGRAMIRANJE ZA WINDOWS\dz\dz2\dz2Tests\obj\Debug\dz2Tests.csprojResolveAssemblyReference.cache
+D:\podatci\Moje stvari\FAKS\FESB\6 SEMESTAR\6 SEMESTAR\PROGRAMIRANJE ZA WINDOWS\dz\dz2\dz2Tests\obj\Debug\dz2Tests.dll
+D:\podatci\Moje stvari\FAKS\FESB\6 SEMESTAR\6 SEMESTAR\PROGRAMIRANJE ZA WINDOWS\dz\dz2\dz2Tests\obj\Debug\dz2Tests.pdb

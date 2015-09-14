@@ -1,0 +1,34 @@
+﻿<Window x:Class="dz2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:dz2"
+        mc:Ignorable="d"
+        Title="dz2" Height="600" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Width="415" FlowDirection="RightToLeft" Grid.Column="1">
+            <Button x:Name="botunD" Margin="5" Width="100" Click="botunD_Click">Dodaj komentar</Button>
+            <Button x:Name="botunL" Margin="5" Width="100" Click="botunL_Click">Dodaj prijatelja</Button>
+        </StackPanel>
+
+        <local:kontrola1 Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"></local:kontrola1>
+        <StackPanel x:Name="prijatelji" Orientation="Vertical" Grid.Column="0" Grid.Row="2" Margin="0,5,0,0">
+            <local:kontrola1 HorizontalAlignment="Center" VerticalAlignment="Center"></local:kontrola1>
+        </StackPanel>
+
+        <StackPanel x:Name="komentari" Orientation="Vertical" Grid.Column="1" Grid.Row="2" Margin="0,5,0,-317">
+            <local:Post Grid.Column="1" Grid.Row="2" Margin="0,5,0,0"></local:Post>    
+        </StackPanel>
+    </Grid>
+</Window>

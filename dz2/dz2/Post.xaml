@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="dz2.Post"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:dz2"
+             mc:Ignorable="d" 
+             d:DesignHeight="75" d:DesignWidth="400">
+    <StackPanel x:Name="koment">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="300"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+        </Grid.RowDefinitions>
+            <TextBlock x:Name="UserName2TextBlock" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" Width="100"/>
+            <TextBlock x:Name="KomentarTextBlock" Grid.Column="1" HorizontalAlignment="Left" Grid.RowSpan="2" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Width="300"/>
+        <StackPanel Grid.Column="1" Grid.Row="2" Orientation="Horizontal" FlowDirection="RightToLeft">
+            <Button x:Name="Delete" Click="Delete_Click" Height="20" Width="75">Delete</Button>
+            <Button x:Name="Edit" Click="Edit_Click" Height="20" Width="75">Edit</Button>            
+        </StackPanel>
+    </Grid>
+    </StackPanel>
+   
+</UserControl>
